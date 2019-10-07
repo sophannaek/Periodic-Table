@@ -9,59 +9,26 @@
   <head>
     <meta charset="utf-8">
     <title>periodic table</title>
-    <style>
-	body{text-align:center;}
-      #entry {
-        margin: 2em 1em;
-      }
-      #location {
-        margin: 1em;
-      }
-	  .card-title{
-		background-color: lightgray;
-		text-align:center;
-	  }
-	  #card{
-	<!--	border:1px solid lightgray; -->
-		padding:10px 10px;
-	  }
-	  .p-tag{
-	
-	  }
-    </style>
+    <link rel='stylesheet' type='text/css' href='main.css'/>
   </head>
   <body>
-	<h5>Enter element symbol to find its information</h5>
+	<h3>Enter an element symbol to find its information</h3>
 	
     <div id="entry">
       Element: <input id="elementSymbol" type="text" name="elementSymbol" />
 	 <button id="ajax-button" type="button">Submit</button> 
     </div>
-<!-- create a card in the JS so they don't see the default view --> 
+
+	<p id="error" style="color:red"></p>
+	<center> <div id='display' ></div> </center>
 	
-	<div id='display' style='margin-left:40%' >
-		<p id="error"></p>
-		<div id='card' style='text-align:left'>
-			<h4 id='title' class='card-title'></h4>
-			<p id='symbol' class='p-tag'></p>
-			<p id='name' class='p-tag'></p>
-			<p id='atomicNumber'></p>
-			<p id='atomicMass'></p>
-			<p id='atomicRadius'></p>
-			<p id='groupBlock'></p>
-			<p id='oxidationState'></p>
-			<p id='electronNegativity'></p>
-			<p id='boilingPoint'></p>
-			<p id='meltingPoint'></p>
-			<p id='electroNegativity'></p>
-			<p id='electronAffinity'></p>
-			<p id='bondingType'></p>
-			<a href='link to wikipedia'></a>
-		</div>
-	</div>
+	<p><button type="button"  id='showFull'>show all elements</button></p>
+	<center><div id='fullList'></div></center>
 	
+	<p><button type="button"  id='btn' onclick='toggle(this)'>see all</button></p>
+		
 	
-	<input type="button" value="Open a Calculator" onclick="window.open('atomic-mass-calculator-under-construction.html','popUpWindow','height=600,width=500,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');" >
-	<script src='scripts.js'></script>
+	<script src='script.js'></script> 
+	
 	
 	</html>
