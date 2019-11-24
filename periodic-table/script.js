@@ -107,8 +107,23 @@ function displaySingleElement(json){
 	var p9 = document.createElement('p');
 	//retrieve group Block for each element
 	var block = json.groupBlock;
+	switch(block){
+		case "noble gas":
+			block = "noblegas";
+			break;
+		case 'transition metal':
+			block = 'transitionMetal';
+			break;
+		case 'alkali metal':
+			block ='alkaliMetal' ; 
+			break;
+		case 'alkaline earth metal':
+			block = 'alkaline';
+			break;
+	}
 	//highlight the block div based on element group block
 	blockHighlight(block,div_left);
+	div_left.setAttribute("class", block);
 	div_left.setAttribute("id", "card");
 	div_right.setAttribute("id", "right");
 	p1.innerHTML = json.atomicNumber;
@@ -148,8 +163,7 @@ function displaySingleElement(json){
 	tr.appendChild(td_right);
 	table.appendChild(tr);
 	display.appendChild(table);
-	document.body.appendChild('display');
-	document.body.appendChild(display);
+	//document.body.appendChild(display);
 	console.log(table);
 }
 
