@@ -1,5 +1,10 @@
+/*
+	File: scirpt.js - JavaScript for periodic table quiz
+	Author: Sophanna Ek
 
-//periodic quiz modified script.js --- clean up version
+*/
+
+
 //get references to select list and display textbox
 var sel = document.getElementById('game-option');
 var game_option = document.getElementById('game-option');
