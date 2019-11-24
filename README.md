@@ -3,7 +3,7 @@
 A web tool for a chemical element information retrieval using periodic table API.
 
 * Chemical Element Search 
-	###### Search for specific element:
+	* ###### Search for specific element:
 
 <img src="images/periodic-table-1.png" width='550px' height='450px' />
 
