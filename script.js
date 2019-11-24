@@ -271,11 +271,4 @@ function reset(display){
 		element.removeChild(element.firstChild);
 	}
  }
-function toggle(button){
-	 if(document.getElementById('btn').textContent =="close"){
-		 document.getElementById('btn').textContent = "see all"; 
-	 }
-	 else if(document.getElementById('btn').textContent =="see all"){
-		 document.getElementById('btn').textContent = "close"; 
-	 }
- }
+

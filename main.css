@@ -53,28 +53,29 @@ tr.tb_row td,th{
 	border-bottom: 1px solid lightgray;
 }
 .metal{
-	background-color:#6CE5AC ;
+	background-color:#BCF5A9 ;
 }
 .metalloid{
-	background-color:#86B77A  ;
+	background-color:#CEF6E3 ;
 }
 .alkaliMetal{
-	background-color:#E09067;
+	background-color:#F6CED8;
 }
 .alkaline{
-	background-color: #B8AAE5;
+	background-color:#E0E6F8;
 }
 .transitionMetal{
-	background-color:#97BDDE ;
+	background-color:#CEE3F6 ;
 }
 .nonmetal, .halogen{
 	background-color:lightyellow;
 }
 .noblegas{
-	background-color: #ECC258;
+	background-color:#F6E3CE;
 }
 .lanthanoid{
-	background-color: #4FDFF7 ;
+	
+	background-color:#A9F5F2;
 }
 .actinoid{
 	background-color:#ABE5D3 ;
