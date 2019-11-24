@@ -2,8 +2,8 @@
 
 A web tool for a chemical element information retrieval using periodic table API.
 
-#### Chemical Element Search 
-###### Search for specific element:
+* Chemical Element Search 
+	###### Search for specific element:
 
 <img src="images/periodic-table-1.png" width='550px' height='450px' />
 
@@ -11,7 +11,7 @@ A web tool for a chemical element information retrieval using periodic table API
 <img src="images/periodic-table-2.png" width='550px' height='450px'/>
 
 
-#### Quiz on Periodic Table 
+* Quiz on Periodic Table 
 ###### Quiz option 1: Quiz on atomic number, number of protons/electrons for a given element.
 
 <img src="images/periodic-table-5.png" width='550px' height='450px' />
