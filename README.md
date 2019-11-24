@@ -16,8 +16,8 @@ Quiz option 1: Quiz on atomic number, number of protons/electrons for a given el
 <img src="images/periodic-table-5.png" width='550px' height='450px' />
 
 Quiz option 2: Using the periodic table to find an element symbol given the atomic number, group block, period, and name.
-<img src="images/periodic-table-3.png" width='550px' height='450px' />
+<img src="images/periodic-table-3.png"  />
 
-<img src="images/periodic-table-4.png" width='350px' height='450px' />
+<img src="images/periodic-table-4.png"  />
 
 
