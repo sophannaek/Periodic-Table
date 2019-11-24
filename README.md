@@ -7,7 +7,7 @@ A web tool for a chemical element information retrieval using periodic table API
 
 		<img src="images/periodic-table-1.png" width='550px' height='450px' />
 
-	*###### See all elements in the periodic table:
+	* ###### See all elements in the periodic table:
 		<img src="images/periodic-table-2.png" width='550px' height='450px'/>
 
 
