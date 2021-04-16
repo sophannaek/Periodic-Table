@@ -2,7 +2,7 @@
 
 A web tool for a chemical element information retrieval using periodic table API.
 
-#Demo
+# Demo
 [Molar Mass Calculation Demo](https://sophannaek.github.io/project/molar-mass-calculation/chem-cal.html)
 [Periodic Table Demo](https://sophannaek.github.io/project/periodic-table/periodic-table-api.html)
 [Periodic Table Quiz](https://sophannaek.github.io/project/periodic-table-quiz/periodic-table-quiz.html)
